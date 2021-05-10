@@ -1,0 +1,60 @@
+* {
+  font-family: 'Staatliches', cursive;
+  background-color: #e04038;
+}
+h2 {
+  font-size: 2.5rem;
+  position: relative;
+  left: 35%;
+}
+
+#timer {
+  margin-top: 5%;
+  border-left: 3px solid #222;
+  border-top: 2px solid #222;
+  border-right: 2px solid #222;
+  border-bottom: 5px solid #222;
+  border-radius: 15px;
+  color: #222;
+  width: 40%;
+}
+
+.timer-grid {
+  /* display: grid; */
+}
+.timer-cols {
+  /* grid-template-columns: 20% 20% 20%; */
+  display: inline-block;
+}
+input {
+  border: none;
+}
+.time {
+  font-family: 'Staatliches', cursive;
+  font-size: 3rem;
+  color: #222;
+  padding: 20px;
+}
+#start {
+  font-family: 'Staatliches', cursive;
+  color: #222;
+}
+#reset {
+  font-family: 'Staatliches', cursive;
+  margin-left: 10px;
+  color: #eeeeee;
+}
+.btn {
+  width: 80px;
+  height: 50px;
+  border-radius: 5px;
+  position: relative;
+  left: 30%;
+  font-size: 1.5rem;
+}
+#start {
+  background-color: #ccc;
+}
+#reset {
+  background-color: #222;
+}
